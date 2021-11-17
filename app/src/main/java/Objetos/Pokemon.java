@@ -6,8 +6,8 @@ import java.util.Objects;
 public class Pokemon {
 
     private int id;
-    private String[] pokemon = {"Pikachu","Rapidash","Lucario","Tauros","Togepi","Gengar"."Greninja"};
-    private int[] kilometros = {3000, 5000, 2000, 1500, 500, 1000, 4500};
+    private String[] pokemon = {"Pikachu","Rapidash","Lucario","Tauros","Togepi","Gengar"."Greninja","Snorlax"};
+    private int[] kilometros = {3000, 5000, 2000, 1500, 500, 1000, 4500, 250};
     private int cantidad;
 
     public Pokemon()
