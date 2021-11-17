@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.MediaController;
 import android.widget.VideoView;
 
 import Objetos.Pokemon;
@@ -28,12 +29,14 @@ public class Home_act extends AppCompatActivity {
         Uri uri = Uri.parse(ruta);
         video.setVideoURI(uri);
 
+
+
         video.start();
     }
 
     public void Pokemon(View view)
     {
-        Intent i = new Intent(this, Pokemon.class);
+        Intent i = new Intent(this, Kilometros_act.class);
         //Preparo los extras
         Bundle bun = new Bundle();
         bun.putStringArray("pokemon",po.getPokemon());
